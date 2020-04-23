@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'djoser', #3rd party package for user registration and auth
+    'events',
     'rest_framework', #rest api implementation library for django
     'rest_framework_simplejwt', #json web token  auth backend library
 ]
